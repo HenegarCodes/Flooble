@@ -1,0 +1,61 @@
+html {
+    background-color: rgb(55, 54, 54);
+}
+
+html, body {padding:0; margin:0; height:100%;}
+footer{position: absolute; bottom: 0; left: 0; right: 0;}
+
+h1 {
+    letter-spacing: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    position: relative;
+    width: 50%;
+    font-family: Arial;
+    font-size: 80px;
+    color: white;
+    }
+
+h5 {
+    display: inline-flex;
+    padding: 8px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: white;
+}
+
+.images {
+    float: right;
+}
+
+.floomail {
+    display: flex;
+    float: right;
+}
+
+.privacy {
+    display: flex;
+    float: right;
+}
+
+.settings {
+    float: right;
+}
+
+.terms {
+    float: right;
+}
+
+.footer-position {
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    position: absolute; bottom;
+    color: white;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #FF00FF;
+}
