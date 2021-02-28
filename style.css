@@ -1,24 +1,106 @@
 body {
-    background-color: rgb(55, 54, 54);
+    background-color: rgb(21, 20, 20);
+    zoom: 125%;
 }
 
 html, body {padding:0; margin:0; height:100%;}
 footer{position: absolute; bottom: 0; left: 0; right: 0;}
 
+.wrapper {
+    margin: 0 auto;
+}
+
+.youngpic {
+    display: inline;
+    padding: 8px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    float: right;
+    max-height: 25px;
+    max-width: 25px;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.wrapper-2 {
+    display: inline-flex;
+    width: 550px;
+    transform: translate(-50%,-50%);
+    display: flex;
+    float: right;
+    padding: 8px;
+    margin-top: 8px;
+    margin-bottom: 0px;
+    padding: 8px;
+}
+
+.navbar {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: inline-flex;
+    float: right;
+    zoom: 30%;
+    margin-top: 19px;
+}
+
+.navbar div {
+    height: 8px;
+    width: 60px;
+    background-color: #fff;
+    position: absolute;
+    transition: all 0.5s ease;
+}
+
+.navbar .first {
+    top: 25px;
+    left: 20px;
+}
+
+.navbar .second {
+    top: 45px;
+    left: 20px;
+}
+
+.navbar .third {
+    top: 65px;
+    left: 20px;
+}
+
 form {
     width: 400px;
     margin: auto;
-    margin-top: 250px;
+    margin-top: 100px;
     text-align: center;
+    align-items: center;
+    margin: auto;
+    margin-left: 33.6%;
 }
 
 input {
     padding: 4px 10px;
     border: 0;
     font-size: 16px;
+    position: static;
+    text-align: left;
+}
+
+#right {
+    display: inline-flexbox;
+    float: left;
     position: relative;
-    display: inline-flex;
-    text-align: center;
+    margin-left: 30px;
+}
+
+#left {
+    display: inline-flexbox;
+    float: right;
+    position: relative;
+    margin-right: 15px;
 }
 
 .search {
@@ -27,27 +109,9 @@ input {
     border-radius: 50px;
     display: block;
     font-family: sans-serif;
-}
-
-.submit {
-    width: 70px;
-    background-color: #1c87c9;
-    color: #ffffff;
-    border-radius: 0px;
-    font-size: 12px;
-    position: relative;
-}
-
-.submit-money {
-    width: 150px;
-    background-color: #1c87c9;
-    color: #ffffff;
-    border-radius: 0px;
-    font-family: sans-serif;
-    position: relative;
-    font-size: 12px;
     text-align: center;
 }
+
 
 h1 {
     letter-spacing: 12px;
@@ -59,6 +123,7 @@ h1 {
     font-family: Arial;
     font-size: 80px;
     color: white;
+    margin-top: 10%;
     }
 
 h5 {
@@ -69,13 +134,23 @@ h5 {
     color: white;
 }
 
+.share {
+    margin: 5px
+}
+
+.about {
+    margin: 5px
+}
+
 .images {
     float: right;
+    margin: 5px
 }
 
 .floomail {
     display: flex;
     float: right;
+    margin: 5px
 }
 
 .privacy {
@@ -92,11 +167,12 @@ h5 {
 }
 
 .footer-position {
-    padding: 0px;
-    margin-top: 0px;
+    padding: -40px;
+    margin-top: -40px;
     margin-bottom: 0px;
     position: absolute;
     color: white;
+    background-color: rgb(132, 120, 120)
 }
 
 a:hover{
